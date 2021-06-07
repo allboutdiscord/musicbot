@@ -1,0 +1,30 @@
+{
+  "name": "Frazix-MusicBot",
+  "description": "Very simple music bot with the discord.js with Song Name playing. It can able to play music with the song name",
+  "repository": "https://github.com/Frazix12/Frazix-MusicBot",
+  "keywords": ["node", "discord", "youtube","music","bot"],
+  "image": "heroku/nodejs",
+  "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    },
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "env": {
+    "TOKEN": {
+      "description": "The token copied in the first section.",
+      "required": "true"
+    },
+    "PREFIX": {
+      "description": "The prfix you want to use with the bot.",
+      "value": "!"
+    },
+    "SOUNDCLOUD_CLIENT_ID": {
+      "description": "The client id of soundcloud.",
+      "value": "dmDh7QSlmGpzH9qQoH1YExYCGcyYeYYC",
+      "required": "false"
+    }
+  }  
+}
