@@ -1,7 +1,7 @@
 {
-  "name": "Frazix-MusicBot",
+  "name": "DevNemil-MusicBot",
   "description": "Very simple music bot with the discord.js with Song Name playing. It can able to play music with the song name",
-  "repository": "https://github.com/Frazix12/Frazix-MusicBot",
+  "repository": "https://github.com/devnemil/musicbot",
   "keywords": ["node", "discord", "youtube","music","bot"],
   "image": "heroku/nodejs",
   "buildpacks": [
